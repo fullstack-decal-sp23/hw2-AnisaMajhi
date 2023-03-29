@@ -59,11 +59,12 @@ h2 {
 /* Colors */
 
 /* QUESTION 1 */
-
-.red {
+#white{
+  background-color: white;
+}
+.red{
   background-color: red;
 }
-
 .orange {
   background-color: orange;
 }
@@ -88,10 +89,6 @@ h2 {
   background-color: purple;
 }
 
-#white {
-  background-color: #fff;
-}
-
 .white {
   background-color: #fff;
 }
@@ -103,14 +100,17 @@ h2 {
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
+  height: 17.5%;
   background-color: #B5002D;
 }
 
 .thailand-white {
-  background-color: #fff;
+  height: 17.5%;
+  background-color: white;
 }
 
 .thailand-blue {
+  height:30%;
   background-color: #2E2A4C;
 }
 
@@ -130,11 +130,6 @@ h2 {
   background-color: #e10017;
 }
 
-#col-rev {
-  flex-direction: column-reverse;
-  width: 33.33%
-}
-
 /* END QUESTION 3 */
 
 /* QUESTION 4 */
@@ -143,19 +138,21 @@ h2 {
 }
 
 .mexico-img {
-  background-color: white;
-  background-image: url("eagle.png");
-  /*background-size: maxheight= 100%;*/
-  background-size: 150px;
-  width: 300px;
-  height: 300px;
+  max-height:300px;
+  max-width:167px;
   align-self: center;
+
 }
 
 .mexico-red {
   background-color: #ce1126;
 }
-
+.label{
+  color: purple;
+}
+.label:hover{
+  color: red;
+}
 /* QUESTION 6 */
 .margin-container {
   height: 300px;
@@ -165,6 +162,7 @@ h2 {
   display: flex;
   justify-content: center;
 }
+
 
 /* For margin practice */
 .flag1 {
